@@ -23,6 +23,7 @@ public class Universidad {
     Profesor p;
     
     public void AgregarCurso(int nrc) {
+            //pedir NRC
         Curso c = new Curso(nrc);
         cursos.add(c);
 

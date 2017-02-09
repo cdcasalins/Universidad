@@ -16,10 +16,10 @@ public class POO {
         System.out.println("Crear profesor");
         System.out.println("Digite el codigo del pofesor");
         int id = leer.nextInt();
-        Profesor nuevo = new Profesor(id);
+        Profesor nuevop = new Profesor(id);
         
-        U.profesores.add(nuevo);
-        U.cursos.get(nrc).setProfesor(nuevo);
+        U.profesores.add(nuevop);
+        U.cursos.get(nrc).setProfesor(nuevop);
         System.out.println(U.cursos.get(nrc).getProfesor());
     }
     
